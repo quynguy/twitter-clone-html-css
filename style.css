@@ -78,6 +78,22 @@ div.sidebar {
   font-size: 30px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  color:rgb(124, 119, 113);
+  animation-name:blink;
+  animation-duration:2s;
+  animation-timing-function:ease-in;
+  animation-iteration-count:Infinite;
+}
+
+@keyframes blink{
+  0%{color:rgb(62, 170, 189);}
+  50%{color:white;}
+  100%{color:rgb(62, 170, 189);}
+}
+
 div.feed {
   flex: 0.5;
   border-right: 1px solid var(--chirp-background); 
